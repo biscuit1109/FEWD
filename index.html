@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 10px;
+        }
+
+        div pre {
+            font-size: 1px;
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <pre>
+            <p>1a.</p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html lang="en"&gt;<br>
+            &lt;head&gt;<br>
+            &lt;meta charset="UTF-8"&gt;<br>
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+            &lt;link rel="stylesheet" href="styles.css"&gt;<br>
+            &lt;title&gt;Your Institution&lt;/title&gt;<br>
+            &lt;/head&gt;<br>
+            &lt;body&gt;<br>
+            &lt;header&gt;<br>
+            &lt;div class="logo"&gt;<br>
+            &lt;img src=" " alt="Institution Logo"&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class="header-content"&gt;<br>
+            &lt;h1&gt;Institution Name&lt;/h1&gt;<br>
+            &lt;p&gt;Affiliation&lt;/p&gt;<br>
+            &lt;p&gt;Address&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;/header&gt;<br>
+            &lt;nav&gt;<br>
+            &lt;ul class="menu"&gt;<br>
+            &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;<br>
+            &lt;li class="submenu"&gt;<br>
+            &lt;a href=" "&gt;Departments&lt;/a&gt;<br>
+            &lt;ul class="submenu-content"&gt;<br>
+            &lt;li&gt;&lt;a href=" "&gt;Department of CSE&lt;/a&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;a href=" "&gt;Department of ISE&lt;/a&gt;&lt;/li&gt;<br>
+            &lt;/ul&gt;<br>
+            &lt;/li&gt;<br>
+            &lt;li&gt;&lt;a href="#"&gt;Resources&lt;/a&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;a href="#"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;<br>
+            &lt;/ul&gt;<br>
+            &lt;/nav&gt;<br>
+            &lt;main&gt;<br>
+            ABOUT COLLEGE<br>
+            &lt;/main&gt;<br>
+            &lt;footer&gt;<br>
+            &lt;div class="social-links"&gt;<br>
+            &lt;a href="#"&gt;Facebook&lt;/a&gt;<br>
+            &lt;a href="#"&gt;Twitter&lt;/a&gt;<br>
+            &lt;a href="#"&gt;Instagram&lt;/a&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;p&gt;&amp;copy; 2023 Your Institution. All rights reserved.&lt;/p&gt;<br>
+            &lt;/footer&gt;<br>
+            &lt;/body&gt;<br>
+            &lt;/html&gt;<br>
+            CSS FILE<br>
+            /* Reset some default styles */<br>
+            body, h1, h2, p, ul, li {<br>
+            margin: 0;<br>
+            padding: 0;<br>
+            }<br>
+            /* Global Styles */<br>
+            body {<br>
+            font-family: Arial, sans-serif;<br>
+            line-height: 1.6;<br>
+            }<br>
+            header {<br>
+            background-color: #333;<br>
+            color: #fff;<br>
+            text-align: center;<br>
+            padding: 1rem;<br>
+            display: flex;<br>
+            align-items: center;<br>
+            justify-content: space-between;<br>
+            }<br>
+            .logo img {<br>
+            max-width: 100px;<br>
+            height: auto;<br>
+            }<br>
+            .header-content {<br>
+            text-align: left;<br>
+            }<br>
+            nav {<br>
+            background-color: #444;<br>
+            }<br>
+            .menu {<br>
+            list-style: none;<br>
+            display: flex;<br>
+            justify-content: center;<br>
+            padding: 1rem 0;<br>
+            }<br>
+            .menu li {<br>
+            margin: 0 1rem;<br>
+            position: relative;<br>
+            }<br>
+            .menu a {<br>
+            color: #fff;<br>
+            text-decoration: none;<br>
+            transition: color 0.3s;<br>
+            }<br>
+            .menu a:hover {<br>
+            color: #ff9900;<br>
+            }<br>
+            .submenu-content {<br>
+            display: none;<br>
+            position: absolute;<br>
+            top: 100%;<br>
+            left: 0;<br>
+            background-color: #444;<br>
+            z-index: 1;<br>
+            }<br>
+            .submenu:hover .submenu-content {<br>
+            display: block;<br>
+            }<br>
+            main {<br>
+            padding: 2rem;<br>
+            }<br>
+            .department {<br>
+            margin-bottom: 2rem;<br>
+            }<br>
+            footer {<br>
+            text-align: center;<br>
+            padding: 1rem 0;<br>
+            background-color: #444;<br>
+            color: #fff;<br>
+            }<br>
+            .social-links a {<br>
+            color: #fff;<br>
+            text-decoration: none;<br>
+            margin: 0 10px;<br>
+            }<br>
+            /* Media Queries */<br>
+            @media screen and (max-width: 768px) {<br>
+            header {<br>
+            flex-direction: column;<br>
+            }<br>
+            .logo {<br>
+            margin-bottom: 1rem;<br>
+            }<br>
+            }<br>
+        </pre>
+        <hr>
+        <pre>
+            <p>1b.</p>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html lang=&quot;en&quot;&gt;<br>
+            &lt;head&gt;<br>
+            &lt;meta charset=&quot;UTF-8&quot;&gt;<br>
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br>
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;<br>
+            &lt;title&gt;Your Portfolio&lt;/title&gt;<br>
+            &lt;/head&gt;<br>
+            &lt;body&gt;<br>
+            &lt;header&gt;<br>
+            &lt;h1&gt;Your Name&lt;/h1&gt;<br>
+            &lt;/header&gt;<br>
+            &lt;main&gt;<br>
+            &lt;section class=&quot;profile&quot;&gt;<br>
+            &lt;div class=&quot;photo&quot;&gt;<br>
+            &lt;img src=&quot;your-photo.jpg&quot; alt=&quot;Your Photo&quot;&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class=&quot;bio&quot;&gt;<br>
+            &lt;h2&gt;About Me&lt;/h2&gt;<br>
+            &lt;p&gt;<br>
+            Write a brief description of yourself here. Mention your interests, skills, and<br>
+            experiences.<br>
+            &lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;/section&gt;<br>
+            &lt;/main&gt;<br>
+            &lt;footer&gt;<br>
+            &lt;p&gt;&amp;copy; 2023 Your Name. All rights reserved.&lt;/p&gt;<br>
+            &lt;/footer&gt;<br>
+            &lt;/body&gt;<br>
+            &lt;/html&gt;<br>
+            <br>
+            Styles.css<br>
+            body, h1, h2, p {<br>
+            margin: 0;<br>
+            padding: 0;<br>
+            }<br>
+            /* Global Styles */<br>
+            body {<br>
+            font-family: Arial, sans-serif;<br>
+            line-height: 1.6;<br>
+            }<br>
+            header {<br>
+            background-color: #333;<br>
+            color: #fff;<br>
+            text-align: center;<br>
+            padding: 1rem;<br>
+            }<br>
+            main {<br>
+            padding: 2rem;<br>
+            }<br>
+            .profile {<br>
+            display: flex;<br>
+            align-items: center;<br>
+            }<br>
+            .photo {<br>
+            flex: 1;<br>
+            padding: 0 2rem;<br>
+            }<br>
+            .photo img {<br>
+            max-width: 100%;<br>
+            height: auto;<br>
+            border-radius: 50%;<br>
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);<br>
+            }<br>
+            .bio {<br>
+            flex: 2;<br>
+            }<br>
+            footer {<br>
+            text-align: center;<br>
+            padding: 1rem 0;<br>
+            background-color: #333;<br>
+            color: #fff;<br>
+            }<br>
+            /* Media Queries */<br>
+            @media screen and (max-width: 768px) {<br>
+            .profile {<br>
+            flex-direction: column;<br>
+            }}<br>
+        </pre>
+        <hr>
+        <pre>
+            <p>2a.</p>
+            &lt;!DOCTYPEhtml&gt;
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            &lt;metacharset=&quot;UTF-8&quot;&gt;
+            &lt;metaname=&quot;viewport&quot;content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;linkrel=&quot;stylesheet&quot;href=&quot;styles.css&quot;&gt;
+            &lt;title&gt;E-commerceWebsite&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;header&gt;
+            &lt;h1&gt;WelcometoOurE-commerceStore&lt;/h1&gt;
+            &lt;/header&gt;
+            &lt;main&gt;
+            &lt;divclass=&quot;cta&quot;&gt;
+            &lt;ahref=&quot;signup.html&quot;&gt;SignUp&lt;/a&gt;
+            &lt;ahref=&quot;signin.html&quot;&gt;SignIn&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;/main&gt;
+            &lt;footer&gt;
+            &lt;p&gt;&amp;copy;2023E-commerceStore.Allrightsreserved.&lt;/p&gt;
+            &lt;/footer&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+            signup.html(Sign-UpPage):
+            &lt;!DOCTYPEhtml&gt;
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            &lt;metacharset=&quot;UTF-8&quot;&gt;
+            &lt;metaname=&quot;viewport&quot;content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;linkrel=&quot;stylesheet&quot;href=&quot;styles.css&quot;&gt;
+            &lt;title&gt;SignUp&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;header&gt;
+            &lt;h1&gt;SignUp&lt;/h1&gt;
+            &lt;/header&gt;
+            &lt;main&gt;
+            &lt;formclass=&quot;signup-form&quot;&gt;
+            &lt;labelfor=&quot;name&quot;&gt;Name:&lt;/label&gt;
+            &lt;inputtype=&quot;text&quot;id=&quot;name&quot;name=&quot;name&quot;required&gt;
+            &lt;labelfor=&quot;email&quot;&gt;Email:&lt;/label&gt;
+            &lt;inputtype=&quot;email&quot;id=&quot;email&quot;name=&quot;email&quot;required&gt;
+            &lt;labelfor=&quot;password&quot;&gt;Password:&lt;/label&gt;
+            &lt;inputtype=&quot;password&quot;id=&quot;password&quot;name=&quot;password&quot;required&gt;
+            &lt;buttontype=&quot;submit&quot;&gt;SignUp&lt;/button&gt;
+            &lt;/form&gt;
+            &lt;/main&gt;
+            &lt;footer&gt;
+            &lt;p&gt;&amp;copy;2023E-commerceStore.Allrightsreserved.&lt;/p&gt;
+            &lt;/footer&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+            signin.html(Sign-InPage):
+            &lt;!DOCTYPEhtml&gt;
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            &lt;metacharset=&quot;UTF-8&quot;&gt;
+            &lt;metaname=&quot;viewport&quot;content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;linkrel=&quot;stylesheet&quot;href=&quot;styles.css&quot;&gt;
+            &lt;title&gt;SignIn&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;header&gt;
+            &lt;h1&gt;SignIn&lt;/h1&gt;
+            &lt;/header&gt;
+            &lt;main&gt;
+            &lt;formclass=&quot;signin-form&quot;&gt;
+            &lt;labelfor=&quot;email&quot;&gt;Email:&lt;/label&gt;
+            &lt;inputtype=&quot;email&quot;id=&quot;email&quot;name=&quot;email&quot;required&gt;
+            &lt;labelfor=&quot;password&quot;&gt;Password:&lt;/label&gt;
+            &lt;inputtype=&quot;password&quot;id=&quot;password&quot;name=&quot;password&quot;required&gt;
+            &lt;buttontype=&quot;submit&quot;&gt;SignIn&lt;/button&gt;
+            &lt;/form&gt;
+            &lt;/main&gt;
+            &lt;footer&gt;
+            &lt;p&gt;&amp;copy;2023E-commerceStore.Allrightsreserved.&lt;/p&gt;
+            &lt;/footer&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+            Cssfile
+            /*Resetsomedefaultstyles*/
+            body,h1,h2,p, label, input,button{
+            margin:0;
+            padding:0;
+            }
+            /*GlobalStyles*/
+            body{
+            font-family:Arial,sans-serif;
+            line-height:1.6;
+            }
+            header{
+            background-color:#333;
+            color:#fff;
+            text-align:center;
+            padding:1rem;
+            }
+            main{
+            padding: 2rem;
+            text-align: center;
+            }
+            footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+            }
+            /* Forms */
+            .signup-form, .signin-form {
+            max-width: 300px;
+            margin: 0 auto;
+            }
+            label {
+            display: block;
+            margin-bottom: 5px;
+            }
+            input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            }
+            button {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            }
+            button:hover {
+            background-color: #555;
+            }       
+        </pre>
+        <hr>
+        <pre>
+            <p>2b.</p>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;style&gt;
+            body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin: 5vh;
+            padding: 10%;
+            overflow: hidden;
+            }
+            .scrollable-text {
+            position: absolute;
+            white-space: nowrap;
+            animation: scrollText 100s linear infinite;
+            }
+            .blinking-text {
+            animation: blinkText 20s alternate infinite;
+            }
+            @keyframes scrollText {
+            0% {
+            transform: translateX(100%);
+            }
+            100% {
+            transform: translateX(-100%);
+            }
+            }
+            @keyframes blinkText {
+            0%, 100% {
+            opacity: 1;
+            }
+            50% {
+            opacity: 0;
+            }
+            }
+            &lt;/style&gt;
+            &lt;title&gt;CSS Animation Demo&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;div class="scrollable-text"&gt;
+            This is a scrollable text that scrolls from left to right.
+            &lt;/div&gt;
+            &lt;div class="blinking-text"&gt;
+            &lt;p&gt;This is a blinking text that blinks at regular intervals.&lt;/p&gt;
+            &lt;p&gt;Show results in a different line.&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </pre>
+        <hr>
+        <pre>
+            <p>3a.</p>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;title&gt;Traffic Light Simulator&lt;/title&gt;
+            &lt;style&gt;
+            .traffic-light {
+                width: 100px;
+                height: 300px;
+                border: 1px solid black;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 50px;
+            }
+            .light {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                margin: 10px;
+            }
+            .red {
+                background-color: red;
+            }
+            .yellow {
+                background-color: yellow;
+            }
+            .green {
+                background-color: green;
+            }
+            &lt;/style&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;div class=&quot;traffic-light&quot;&gt;
+                &lt;div class=&quot;light red&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;light yellow&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;light green&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;script&gt;
+            const redLight = document.querySelector(&#39;.red&#39;);
+            const yellowLight = document.querySelector(&#39;.yellow&#39;);
+            const greenLight = document.querySelector(&#39;.green&#39;);
+            function changeLights() {
+                setTimeout(() =&gt; {
+                    redLight.style.backgroundColor = &#39;red&#39;;
+                    yellowLight.style.backgroundColor = &#39;transparent&#39;;
+                    greenLight.style.backgroundColor = &#39;transparent&#39;;
+                    setTimeout(() =&gt; {
+                        redLight.style.backgroundColor = &#39;transparent&#39;;
+                        yellowLight.style.backgroundColor = &#39;yellow&#39;;
+                        greenLight.style.backgroundColor = &#39;transparent&#39;;
+                        setTimeout(() =&gt; {
+                            redLight.style.backgroundColor = &#39;transparent&#39;;
+                            yellowLight.style.backgroundColor = &#39;transparent&#39;;
+                            greenLight.style.backgroundColor = &#39;green&#39;;
+                            changeLights(); // Recursively call to keep the cycle going
+                        }, 2000); // Green light for 2 seconds
+                    }, 1000); // Yellow light for 1 second
+                }, 2000); // Red light for 2 seconds
+            }
+            changeLights(); // Start the cycle
+            &lt;/script&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </pre>
+        <hr>
+        <pre>
+            <p>3b.</p>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;title&gt;Car Showroom&lt;/title&gt;
+            &lt;!-- Link to your custom CSS file (if any)--&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+            &lt;!-- Add these lines in your HTML file&#39;s head section--&gt;
+            &lt;!-- Latest compiled and minified CSS--&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css&quot;&gt;
+            &lt;!-- jQuery library--&gt;
+            &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+            &lt;!-- Latest compiled JavaScript--&gt;
+            &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;!-- Navbar--&gt;
+            &lt;nav class=&quot;navbar navbar-expand-lg navbar-light bg-light&quot;&gt;
+            &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Car Showroom&lt;/a&gt;
+            &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarNav&quot; aria-controls=&quot;navbarNav&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+            &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarNav&quot;&gt;
+            &lt;ul class=&quot;navbar-nav&quot;&gt;
+            &lt;li class=&quot;nav-item active&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Home &lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;nav-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Cars&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;nav-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;About Us&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;nav-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;/nav&gt;
+            &lt;!-- Search Bar--&gt;
+            &lt;div class=&quot;container mt-3&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-md-6 mx-auto&quot;&gt;
+            &lt;form class=&quot;form-inline&quot;&gt;
+            &lt;input class=&quot;form-control mr-sm-2&quot; type=&quot;search&quot; placeholder=&quot;Search for cars...&quot; aria-label=&quot;Search&quot;&gt;
+            &lt;button class=&quot;btn btn-outline-primary my-2 my-sm-0&quot; type=&quot;submit&quot;&gt;Search&lt;/button&gt;
+            &lt;/form&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Content Section--&gt;
+            &lt;div class=&quot;container mt-5&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-md-12&quot;&gt;
+            &lt;!-- Add your content here--&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Footer--&gt;
+            &lt;footer class=&quot;bg-dark text-light text-center py-3&quot;&gt;
+            &amp;copy; 2023 Car Showroom
+            &lt;/footer&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </pre>
+        <hr>
+        <pre>
+            <p>4a.</p>
+            &lt;!DOCTYPE html&gt; 
+            &lt;html&gt; 
+            &lt;head&gt; 
+                &lt;title&gt;Dynamic Table&lt;/title&gt; 
+                &lt;style&gt; 
+                    table { 
+                        border-collapse: collapse; 
+                        width: 80%; 
+                        margin: 20px; 
+                    } 
+                    th, td { 
+                        border: 1px solid #ddd; 
+                        padding: 8px; 
+                        text-align: left; 
+                    } 
+                    tr:nth-child(even) { 
+                        background-color: #f2f2f2; 
+                    } 
+                    th { 
+                        background-color: #4CAF50; 
+                        color: white; 
+                    } 
+                    .add-button { 
+                        margin: 10px; 
+                    } 
+                &lt;/style&gt; 
+            &lt;/head&gt; 
+            &lt;body&gt; 
+                &lt;h2&gt;Dynamic Table&lt;/h2&gt; 
+                &lt;table id=&quot;myTable&quot;&gt; 
+                    &lt;tr&gt; 
+                        &lt;th&gt;Name&lt;/th&gt; 
+                        &lt;th&gt;Email&lt;/th&gt; 
+                        &lt;th&gt;Action&lt;/th&gt; 
+                    &lt;/tr&gt; 
+                    &lt;tr&gt; 
+                        &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;name[]&quot;&gt;&lt;/td&gt; 
+                        &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;email[]&quot;&gt;&lt;/td&gt; 
+                        &lt;td&gt;&lt;button type=&quot;button&quot; class=&quot;delete-button&quot; 
+            onclick=&quot;deleteRow(this)&quot;&gt;Delete&lt;/button&gt;&lt;/td&gt; 
+                    &lt;/tr&gt; 
+                &lt;/table&gt; 
+                &lt;button class=&quot;add-button&quot; onclick=&quot;addRow()&quot;&gt;Add Row&lt;/button&gt; 
+             
+            &lt;script&gt; 
+            function addRow() { 
+            var table = document.getElementById(&quot;myTable&quot;); 
+            var row = table.insertRow(table.rows.length); // Insert above the last row 
+            var cell1 = row.insertCell(0); 
+            var cell2 = row.insertCell(1); 
+            var cell3 = row.insertCell(2); 
+            cell1.innerHTML = '&lt;input type=&quot;text&quot; name=&quot;name[]&quot;&gt;'; 
+            cell2.innerHTML = '&lt;input type=&quot;text&quot; name=&quot;email[]&quot;&gt;'; 
+            cell3.innerHTML = '&lt;button type=&quot;button&quot; class=&quot;delete-button&quot; onclick=&quot;deleteRow(this)&quot;&gt;Delete&lt;/button&gt;'; 
+            } 
+            function deleteRow(button) { 
+            var row = button.parentNode.parentNode; 
+            row.parentNode.removeChild(row); 
+            } 
+            &lt;/script&gt; 
+            &lt;/body&gt; 
+            &lt;/html&gt;
+        </pre>
+        <hr>
+        <pre>
+            <p>4b.</p>
+            import React, { useState } from 'react'; 
+            import './App.css'; 
+            function App() { 
+            const [count, setCount] = useState(0); 
+            const incrementCounter = () => { 
+            setCount(count + 1); 
+            }; 
+            return ( 
+            &lt;div className="App"&gt; 
+            &lt;header className="App-header"&gt; 
+            &lt;h1&gt;Counter App&lt;/h1&gt; 
+            &lt;p&gt;Count: {count}&lt;/p&gt; 
+            &lt;button onClick={incrementCounter}&gt;Increment&lt;/button&gt; 
+            &lt;/header&gt; 
+            &lt;/div&gt; 
+            ); 
+            } 
+            export default App; 
+        </pre>
+        <hr>
+        <pre>
+            <p>5a.</p>
+            &lt;!DOCTYPE html&gt; 
+            &lt;html lang=&quot;en&quot;&gt; 
+            &lt;head&gt; 
+              &lt;meta charset=&quot;UTF-8&quot;&gt; 
+              &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt; 
+              &lt;title&gt;Animated Scrolling and Featured Products&lt;/title&gt; 
+              &lt;style&gt;
+                nav { 
+            text-align: center; 
+            background-color: #333; 
+            padding: 10px 0; 
+            position: relative; 
+            width: 100%; 
+            } 
+            nav ul { 
+            list-style: none; 
+            } 
+            nav li { 
+            display: inline; 
+            margin: 0 20px; 
+            } 
+            nav a { 
+            text-decoration: none; 
+            color: white; 
+            font-weight: bold; 
+            } 
+            nav a:hover { 
+            color: #ffc107; 
+            } 
+            /* Header */ 
+            header { 
+            font-size: 45px; 
+            text-align: center; 
+            padding: 100px 0; 
+            } 
+            .info { 
+            padding: 100px; 
+            background-color: #f5f5f5; 
+            } 
+            /* Featured Products section */ 
+            .featured-products { 
+            background-color: #f9f9f9; 
+            padding: 40px 0; 
+            text-align: center; 
+            } 
+              .products-list { 
+                display: flex; 
+                flex-wrap: wrap; 
+                justify-content: center; 
+                gap: 20px; 
+                padding: 20px; 
+              } 
+               
+              .product { 
+                background-color: white; 
+                border: 1px solid #ddd; 
+                border-radius: 5px; 
+                padding: 20px; 
+                text-align: center; 
+              } 
+               
+              .product img { 
+                max-width: 100%; 
+                height: auto; 
+                margin-bottom: 10px; 
+              } 
+               
+              .product h3 { 
+                margin-bottom: 5px; 
+              } 
+               
+              .product p { 
+                color: #888; 
+              } 
+              &lt;/style&gt;
+            &lt;/head&gt; 
+            &lt;body&gt; 
+              &lt;nav&gt; 
+                &lt;ul&gt; 
+                  &lt;li&gt;&lt;a href=&quot;#&quot; id=&quot;home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt; 
+                  &lt;li&gt;&lt;a href=&quot;#&quot; id=&quot;scrollToProducts&quot;&gt;Products&lt;/a&gt;&lt;/li&gt; 
+                  &lt;li&gt;&lt;a href=&quot;#&quot; &gt;Contactus&lt;/a&gt;&lt;/li&gt; 
+                  &lt;li&gt;&lt;a href=&quot;#&quot; &gt;Abouts Us&lt;/a&gt;&lt;/li&gt; 
+                &lt;/ul&gt; 
+              &lt;/nav&gt; 
+             
+              &lt;header&gt; 
+                Sample EKart Website 
+              &lt;/header&gt; 
+             
+              &lt;main&gt; 
+                &lt;div class=&quot;info&quot; id=&quot;home&quot;&gt; 
+                    &lt;p&gt;Mahalinga Adyantaya Memorial Institute of Technology(NMAMIT), Nitte, established in 1986 
+            and recognized by the All India  
+                        Council for Technical Education, New Delhi, has been a constituent college of Nitte (Deemed 
+            to be University), Mangaluru,since June 2022.&lt;/p&gt; 
+                    &lt;p&gt;Nitte Mahalinga Adyanthaya Memorial Institute of Technology (NMAMIT), Nitte, established 
+            in 1986 and recognized by the  
+                        All-India Council for Technical Education (AICTE), New Delhi is a constituent college of Nitte 
+            (Deemed to be University), Mangaluru.  
+                        All the eligible undergraduate programs are accredited by the National Board of Accreditation 
+            (NBA), New Delhi under the TIER-I category.  
+                        Nitte University is accredited with ‘A+’ grade by NAAC and is ranked 75 th in NIRF 2022. It is 
+            also in the rank-band of 451-500 of QS Asia  
+                        University Rankings 2023 and 201-300 band in the Times Higher Education (THE) Impact 
+            Ranking 2022.&lt;/p&gt; 
+                &lt;p&gt; 
+                NMAMIT has active collaborations with several international universities and organizations for 
+            faculty and student exchanges, research,  
+                internships and placements. Nitte DU offers undergraduate &amp; postgraduate engineering programs 
+            and MCA at NMAMIT campus, Nitte.  
+                The institute has highly qualified faculty members providing guidance to the students.&lt;/p&gt; 
+                &lt;p&gt; 
+                The college offers 100% placement assistance to the students. The highest package offered at 
+            NMAMIT was INR 52.63 LPA.  
+                Some of the Top Recruiters and Corporates who have been assisting NMAMIT through recruitment 
+            over the years are Microsoft, 
+                 Amazon, Samsung Semiconductor, JSW Group, Oracle, Sony India, Robert Bosch, MindTree, 
+            Daimler Truck, Infosys, TCS, Capgemini,  
+                 Cyient, Mercedes Benz and many more. &lt;/p&gt; 
+                &lt;/div&gt; 
+                 
+                &lt;section class=&quot;featured-products&quot; id=&quot;featuredProducts&quot;&gt; 
+                  &lt;h2&gt;Featured Products&lt;/h2&gt; 
+                  &lt;div class=&quot;products-list&quot; id=&quot;productsList&quot;&gt; 
+                  &lt;/div&gt; 
+                &lt;/section&gt; 
+              &lt;/main&gt; 
+             
+              &lt;script&gt;
+                document.addEventListener(&quot;DOMContentLoaded&quot;, function () { 
+                const productsList = document.getElementById(&quot;productsList&quot;); 
+               
+                const products = [ 
+                  { name: &quot;Product 1&quot;, price: &quot;$10&quot;, image: &quot;product1.jpeg&quot; }, 
+                  { name: &quot;Product 2&quot;, price: &quot;$20&quot;, image: &quot;product2.jpeg&quot; }, 
+                  { name: &quot;Product 3&quot;, price: &quot;$30&quot;, image: &quot;product3.jpeg&quot; }, 
+                ]; 
+               
+                products.forEach((product) => { 
+                  const productElement = document.createElement(&quot;div&quot;); 
+                  productElement.className = &quot;product&quot;; 
+               
+                  const imageElement = document.createElement(&quot;img&quot;); 
+                  imageElement.src = product.image; 
+                  imageElement.alt = product.name; 
+               
+                  const nameElement = document.createElement(&quot;h3&quot;); 
+                  nameElement.textContent = product.name; 
+               
+                  const priceElement = document.createElement(&quot;p&quot;); 
+                  priceElement.textContent = product.price; 
+               
+                  productElement.appendChild(imageElement); 
+                  productElement.appendChild(nameElement); 
+                  productElement.appendChild(priceElement); 
+               
+                  productsList.appendChild(productElement); 
+                }); 
+               
+            const scrollToProductsLink = document.getElementById(&quot;scrollToProducts&quot;); 
+            const featuredProducts = document.getElementById(&quot;featuredProducts&quot;); 
+            scrollToProductsLink.addEventListener(&quot;click&quot;, function (event) { 
+            event.preventDefault(); 
+            featuredProducts.scrollIntoView({ behavior: &quot;smooth&quot; }); 
+            }); 
+            }); 
+              &lt;/script&gt; 
+            &lt;/body&gt; 
+            &lt;/html&gt; 
+             </pre>
+             <hr>
+             <pre>
+                <p>5b.</p>
+                &lt;!DOCTYPE html&gt; 
+                &lt;html lang=&quot;en&quot;&gt; 
+                &lt;head&gt; 
+                &lt;meta charset=&quot;UTF-8&quot;&gt; 
+                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt; 
+                &lt;title&gt;Weather App&lt;/title&gt; 
+                &lt;/head&gt; 
+                &lt;body&gt; 
+                &lt;div id=&quot;app&quot;&gt; 
+                &lt;h1&gt;Weather App&lt;/h1&gt; 
+                &lt;input type=&quot;text&quot; id=&quot;cityInput&quot; placeholder=&quot;Enter city name&quot;&gt; 
+                &lt;button id=&quot;fetchWeather&quot;&gt;Get Weather&lt;/button&gt; 
+                &lt;div id=&quot;weatherResult&quot;&gt; 
+                &lt;!-- Weather data will be displayed here --&gt; 
+                &lt;/div&gt; 
+                &lt;/div&gt; 
+                &lt;script&gt;
+                    document.addEventListener(&quot;DOMContentLoaded&quot;, function () { 
+                    const apiKey = &quot;b1693ed7ad181ad79817cc99d0523aa3&quot;; // Replace with your OpenWeatherMap API key 
+                    const fetchWeatherButton = document.getElementById(&quot;fetchWeather&quot;); 
+                    const cityInput = document.getElementById(&quot;cityInput&quot;); 
+                    const weatherResult = document.getElementById(&quot;weatherResult&quot;); 
+                   
+                    fetchWeatherButton.addEventListener(&quot;click&quot;, function () { 
+                      const city = cityInput.value; 
+                      if (city.trim() === &quot;&quot;) { 
+                        alert(&quot;Please enter a city name.&quot;); 
+                        return; 
+                      } 
+                   
+                      const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&amp;appid=${apiKey}&amp;units=metric`; 
+                   
+                      fetch(apiUrl) 
+                        .then((response) =&gt; response.json()) 
+                        .then((data) =&gt; { 
+                          const temperature = data.main.temp; 
+                          const weatherDescription = data.weather[0].description; 
+                   
+                          const weatherOutput = ` 
+                            &lt;p&gt;Temperature: ${temperature} &amp;#8451;&lt;/p&gt; 
+                            &lt;p&gt;Weather: ${weatherDescription}&lt;/p&gt; 
+                          `; 
+                   
+                          weatherResult.innerHTML = weatherOutput; 
+                        }) 
+                        .catch((error) =&gt; { 
+                          console.error(&quot;Error fetching weather data:&quot;, error); 
+                          weatherResult.innerHTML = &quot;Weather data not available.&quot;; 
+                        }); 
+                    }); 
+                  }); 
+                &lt;/script&gt; 
+                &lt;/body&gt; 
+                &lt;/html&gt;
+            </pre>
+            <hr>
+            <pre>
+                <p>6a.</p>
+                6A.php
+             &lt;?php
+             $username = $_POST['username'];
+             $password = $_POST['password'];
+             echo "Data Submitted";
+             ?&gt;
+             Index.html
+             &lt;!DOCTYPE html&gt;
+             &lt;html lang=&quot;en&quot;&gt;
+             &lt;head&gt;
+             &lt;meta charset=&quot;UTF-8&quot;&gt;
+             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+             &lt;title&gt;Contact Form&lt;/title&gt;
+             &lt;style&gt;
+                .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+            label,
+            input,
+            button {
+            display: block;
+            margin-bottom: 10px;
+            }
+            input {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            }
+            button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            }
+            .button:hover {
+            background-color: #0056b3;
+            }
+            .message {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            }
+            .success {
+            background-color: #d4edda;
+            color: #155724;
+            }
+            .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            }
+            &lt;/style&gt;
+             &lt;/head&gt;
+             &lt;body&gt;
+             &lt;div class=&quot;container&quot;&gt;
+             &lt;h1&gt;Login Page&lt;/h1&gt;
+             &lt;div id=&quot;message&quot; class=&quot;message&quot;&gt;&lt;/div&gt;
+             &lt;form id=&quot;login&quot;&gt;
+             &lt;label for=&quot;email&quot;&gt;username:&lt;/label&gt;
+             &lt;input type=&quot;email&quot; id=&quot;username&quot; name=&quot;username&quot; required&gt;
+             &lt;label for=&quot;Password&quot;&gt;Password:&lt;/label&gt;
+             &lt;input type=&quot;password&quot; id=&quot;password&quot; name=&quot;password&quot; required&gt;
+             &lt;button type=&quot;submit&quot; id=&quot;submitBtn&quot;&gt;Submit&lt;/button&gt;
+             &lt;/form&gt;
+             &lt;/div&gt;
+             &lt;script&gt;
+                document.addEventListener(&quot;DOMContentLoaded&quot;, function () {
+             const loginForm = document.getElementById(&quot;login&quot;);
+             const messageContainer = document.getElementById(&quot;message&quot;);
+             loginForm.addEventListener(&quot;submit&quot;, function (e) {
+             e.preventDefault();
+             const formData = new FormData(loginForm);
+             fetch(&quot;6A.php&quot;, {
+             method: &quot;POST&quot;,
+             body: formData,
+             })
+             .then((response) => {
+             console.log(&quot;Response status:&quot;, response.status);
+             if (!response.ok) {
+             throw new Error(&quot;Network response was not ok&quot;);
+             }
+             return response.json();
+             })
+             .then((data) => {
+             console.log(&quot;Data received:&quot;, data);
+             if (data.success) {
+             showMessage(&quot;success&quot;, &quot;Login successful!&quot;);
+            } else {
+             showMessage(&quot;error&quot;, &quot;Invalid username or password.&quot;);
+             }
+             })
+             .catch((error) => {
+             console.error(&quot;Error:&quot;, error);
+             showMessage(&quot;error&quot;, &quot;An error occurred. Please try again later.&quot;);
+             });
+             });
+             function showMessage(type, text) {
+             messageContainer.innerHTML = `&lt;div class=&quot;${type}&quot;&gt;${text}&lt;/div&gt;`;
+             }
+             });
+             &lt;/script&gt;
+             &lt;/body&gt;
+             &lt;/html&gt;
+            </pre>
+            <hr>
+            <pre>
+                <p>6b.</p>
+                get-cities.php
+                &lt;?php
+                $country = $_GET["country"];
+                // Simulate fetching cities based on the selected country
+                if ($country === "usa") {
+                $cities = array("New York", "Los Angeles", "Chicago");
+                } elseif ($country === "canada") {
+                $cities = array("Toronto", "Vancouver", "Montreal");
+                } else {
+                $cities = array();
+                }
+                echo json_encode($cities);
+                ?&gt;
+                Index.html
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang=&quot;en&quot;&gt;
+                &lt;head&gt;
+                &lt;meta charset=&quot;UTF-8&quot;&gt;
+                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                &lt;title&gt;Dynamic Dropdowns&lt;/title&gt;
+                &lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;&gt;&lt;/script&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                &lt;div class=&quot;container&quot;&gt;
+                &lt;h1&gt;Dynamic Dropdowns Example&lt;/h1&gt;
+                &lt;label for=&quot;country&quot;&gt;Select Country:&lt;/label&gt;
+                &lt;select id=&quot;country&quot; name=&quot;country&quot;&gt;
+                &lt;option value=&quot;&quot;&gt;Select&lt;/option&gt;
+                &lt;option value=&quot;usa&quot;&gt;USA&lt;/option&gt;
+                &lt;option value=&quot;canada&quot;&gt;Canada&lt;/option&gt;
+                &lt;/select&gt;
+                &lt;label for=&quot;city&quot;&gt;Select City:&lt;/label&gt;
+                &lt;select id=&quot;city&quot; name=&quot;city&quot;&gt;
+                &lt;option value=&quot;&quot;&gt;Select a country first&lt;/option&gt;
+                &lt;/select&gt;
+                &lt;/div&gt;
+                &lt;script&gt;
+                    $(document).ready(function () {
+                $("#country").change(function () {
+                const selectedCountry = $(this).val();
+                if (selectedCountry !== "") {
+                // Make an AJAX call to fetch cities based on the selected country
+                $.ajax({
+                url: `get-cities.php?country=${selectedCountry}`,
+                type: &quot;GET&quot;,
+                dataType: &quot;json&quot;,
+                success: function (data) {
+                const cityDropdown = $("#city");
+                cityDropdown.empty();
+               if (data.length &gt; 0) {
+                cityDropdown.append(&quot;&lt;option value=''>Select&lt;/option&gt;&quot;);
+                $.each(data, function (index, city) {
+                cityDropdown.append(
+                $(&quot;&lt;option&gt;&lt;/option&gt;&quot;).attr(&quot;value&quot;, city).text(city)
+                );
+                });
+                } else {
+                cityDropdown.append(&quot;&lt;option value=''>No cities available&lt;/option&gt;&quot;);
+                }
+                },
+                error: function () {
+                console.error(&quot;Error fetching cities.&quot;);
+                },
+                });
+                } else {
+                // Reset city dropdown if no country is selected
+                $(&quot;#city&quot;).html(&quot;&lt;option value=''>Select a country first&lt;/option&gt;&quot;);
+                }
+                });
+                });
+                &lt;/script&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </pre>
+            <hr>
+            <br><br>
+    </div>
+</body>
+
+</html>
